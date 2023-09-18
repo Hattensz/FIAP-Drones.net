@@ -1,0 +1,119 @@
+@import url(variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--cor-primaria);
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-primaria);
+    height: 45px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 194px;
+    height: 146px;
+    position: absolute;
+    top: -50px;
+    left: 16px;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.menu-first-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+
+.menu-first-list li {
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+}
+
+.menu-first-list a {
+    text-decoration: none;
+    color: var(--cor-terciaria-branco);
+    display: inline-block;
+    position: relative;
+    padding: 8px 16px;
+}
+
+.hover-blue:hover {
+    height: 59px;
+    background-color: var(--cor-hover-primario);
+    color: var(--cor-terciaria-branco);
+    display: flex;
+    align-items: center;
+    transform: translateX(10px);
+    transform: translateY(0px);
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.menu-first-list .br-tag {
+    text-align: center;
+}
+
+.drone-main-page {
+    width: 100%;
+}
+
+.menu-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-secundaria);
+    height: 45px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.menu-second-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-second-list li {
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.menu-second-list a {
+    text-decoration: none;
+    color: var(--cor-terciaria-branco);
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: 8px 16px;
+}
+
+.hover-white:hover {
+    height: 59px;
+    background-color: var(--cor-terciaria-branco);
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.hover-white:hover a {
+    color: var(--cor-secundaria);
+}
